@@ -1,0 +1,23 @@
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    
+    /* Specify the width of your pageslide here */
+    width: 150px;
+    padding: 5px 5px 5px 0px;
+
+    
+    /* These styles are optional, and describe how the pageslide will look */
+    background-color: #2a3041;
+    color: #FFF;
+    
+    /* Skygge */
+    -webkit-box-shadow: inset -23px 1px 40px 20px #212530;
+    -moz-box-shadow: inset -23px 1px 40px 20px #212530;
+    box-shadow: inset -23px 1px 40px 20px #212530;
+}
